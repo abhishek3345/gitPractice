@@ -9,5 +9,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //new changes in the file
         print("Hello world")
+        val a:Int = 3;
+        val b:Int = 8;
+        add(a,b)
+    }
+
+    private fun add(a:Int,  b:Int) : Int {
+        return a+b
     }
 }
